@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home- Ocean of Books</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="homepagestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="headernav">
+        <div class="navbartop"><img src="assets/logohor.png" width=" 200px" height="90" alt="">
+            <div class="topnavlinks">
+                <ul style="padding-top: 12px;">
+                    <span class="search-bar"><input type="text" placeholder="Search Title or Author"> <a href=""><i class="fa-solid fa-magnifying-glass "> Search</i></a></span>
+                    	 <!-- <li id="mobile-link1"><a href="">Sign in/Register &nbsp <i class="fa-solid fa-user"></i></a></li>
+                    	  <li  id="mobile-link2"><a href="cartpage.html"> Cart <i class="fa-solid fa-cart-shopping"></i> </a></li> -->
+                        <li><a href="">Sign in/Register &nbsp <i class="fa-solid fa-user"></i></a></li>
+                        <li><a href=""> Help <i class="fa-solid fa-circle-question"></i></a></li>
+                        <li><a href="cartpage.html"> Cart <i class="fa-solid fa-cart-shopping"></i> </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbarbottom">
+            <div class="megadropdown">
+                <button class="dropbutn">Browse
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="megadropdown-content">
+                    <!-- <div class="header">
+        <h2>Mega Menu</h2>
+      </div> -->
+                    <div class="row">
+                        <div class="column">
+                            <h3>Favourites</h3>
+                            <a href="#">Gift cards</a>
+                            <a href="#">Autographed Books</a>
+                            <a href="#">New York Times Bestsellers</a>
+                            <a href="#">Coming Soon</a>
+                            <a href="#">New Releases</a>
+                            <a href="#">Gift Books</a>
+                        </div>
+                        <div class="column">
+                            <h3>Genre</h3>
+                            <a href="#">FAntasy</a>
+                            <a href="#">Historical</a>
+                            <a href="#">Romance</a>
+                            <a href="#">Horror</a>
+                            <a href="#">SCi-fi</a>
+                            <a href="#">Mystery</a>
+                        </div>
+                        <div class="column">
+                            <h3> featured Authors</h3>
+                            <a href="#">Amis Martin</a>
+                            <a href="#">Gordimer Nadine</a>
+                            <a href="#">McCarthy Cormac</a>
+                            <a href="#">Rushdie Salman</a>
+                            <a href="#">Khaled Hosseini</a>
+                            <a href="#">Wright RIchard</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="manga" href="#home">Manga</a>
+            <a  class="manga"href="#news">Kids</a>
+            <a  class="manga"href="#news">Young Adult</a>
+            <!-- <a href="#news"></a> -->
+            <a class="manga" href="#news">Latest</a>
+            <a  class="manga"href="#news">Sale</a>
+        </div>
+    </div>
+    <!--
+    ####################################################
+    C A R O U S E L
+    ####################################################
+    -->
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <a href="https://bootstrapcreative.com/">
+                    <!-- 
+                    If you need more browser support use https://scottjehl.github.io/picturefill/
+                    If a picture looks blurry on a retina device you can add a high resolution like this
+                    <source srcset="img/blog-post-1000x600-2.jpg, blog-post-1000x600-2@2x.jpg 2x" media="(min-width: 768px)">
+
+                    What image sizes should you use? This can help - https://codepen.io/JacobLett/pen/NjramL
+                     -->
+                    <picture>
+                        <!-- <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                      <source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
+                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)"> -->
+                        <img srcset="https://1021sunrise.com/wp-content/uploads/2018/11/same-day-shipping.jpeg" style="height:480px; alt=" responsive image" class="d-block img-fluid">
+                    </picture>
+                    <div class="carousel-caption">
+                        <div>
+                            <h1>FREE SHIPPING</h1>
+                            <p>Enjoy Free Shipping on Orders Above ₦21,000</p>
+                            <span style="font-size: 28px;background-color: #292831	; color: black;  border-radius: 15px;" class="btn btn-sm btn-outline-secondary">Learn More</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="https://bootstrapcreative.com/">
+                    <picture>
+                        <!-- <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                      <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
+                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)"> -->
+                        <img srcset="https://surrygenealogy.files.wordpress.com/2017/10/christmassale.jpg" style="height:480px; alt=" responsive image" class="d-block img-fluid">
+                    </picture>
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <h1>CHRISTMAS SALE !!! <br> UP TO 50% OFF </h1>
+                            <p>Save Big on the Best Books in Decembers Chridtmas Sale</p>
+                            <span style="font-size: 28px;background-color: #292831	; color: black; border-radius: 15px;" class="btn btn-sm btn-outline-secondary">Our Process</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="https://bootstrapcreative.com/">
+                    <picture>
+                        <!--  <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                      <source srcset="https://dummyimage.com/1400x500/007aeb/4196e5" media="(min-width: 769px)">
+                       <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)"> -->
+                        <img srcset="https://www.christcentralpreston.co.uk/application/files/8515/1178/6677/christmas-book.jpg" style="height:480px; alt=" responsive image" class="d-block img-fluid">
+                    </picture>
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <h1>SALE ON GIFT BOOKS</h1>
+                            <p>Gift Awesome Books to loved Ones this Christmas With 40% off on Gift Items </p>
+                            <span style="font-size: 28px;background-color: #292831	; color: black;  border-radius: 15px;" class="btn btn-sm btn-secondary">Shop Gifts</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+        </div>
+        <!-- /.carousel-inner -->
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- /.carousel -->
+    <!-- <div class="container-fluid text-center">
+    <p>Full width carousel with a maximum height and art direction. Resize window to see image change based on the size of the window.</p> -->
+    </div>
+    <!-- /.container -->
+    <!-- <div><iframe src="carousel.html	"  style="height:480px;width:100%;border-bottom: 3px solid black;"  scrolling="no" frameborder="0"></iframe>
+ -->
+    <div class="trending-now">Trending Now: This Weeks top Sellers</div>
+    <hr />
+    <div class="card-deck">
+        <div class="card">
+            <img src="assets/thewife.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Wife Upstairs</h5>
+                <p class="card-text"> By Rachel Hawkins <span>hardcover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦13,000</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/thelastthing.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Last Thing He Told Me</h5>
+                <p class="card-text">Laura Dane <span>hardcover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦14,000</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/kindestlie.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Kindest Lie
+                </h5>
+                <p class="card-text">By Nancy Johnson <span>hardcover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦12,500</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/atnight.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">At Night All Blood is Black</h5>
+                <p class="card-text">David Diop <span> hardcover</span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦14,500</small>
+            </div>
+        </div>
+    </div>
+    <div class="see-all"><a href="	">See All</a> </div>
+    <div class="trending-now">Best Sellers</div>
+    <hr />
+    <div class="card-deck   deck2">
+        <div class="card">
+            <img src="assets/kiterunner.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Kite Runner</h5>
+                <p class="card-text"> By Khaled Hosseini <span>hardcover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦17,000</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/splendid.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">A Thousand Splendid Suns</h5>
+                <p class="card-text"> By Khaled Hosseini <span> hardcover</span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦16,500</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/jlist.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Judge's List
+                </h5>
+                <p class="card-text">By John Grisham <span>hardcover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦10,100</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/tellthebees.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Go Tell The Bees That I Am Gone</h5>
+                <p class="card-text">Diana Gabaldon <span>hardcover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦8,000</small>
+            </div>
+        </div>
+    </div>
+    <div class="see-all"><a href="	">See All</a> </div>
+    <div class="grid-container">
+  <div class="leftside1"><div  class="leftcontent">PICKS OF THE SEASON <br><br><br><div class="explorenow"><a href="">EXPLORE NOW</a></div></div></div>
+  <div class="rightside1"></div>
+  <!--  -->
+</div>
+
+
+<div class="grid-container">
+  <div class="leftside1"><div  class="leftcontent">BEST BOOKS OF THE YEAR<br><br><br><div class="explorenow"><a href="">EXPLORE NOW</a></div></div></div>
+  <div class="rightside1   img2"></div>
+  <!--  -->
+</div>
+
+
+
+<div class="trending-now">Trending in Manga</div>
+    <hr />
+
+
+
+     <div class="card-deck deck3"  >
+        <div class="card">
+            <img src="assets/frieren.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Frieren: Beyond Journey’s End (Vol.6)</h5>
+                <p class="card-text">  <span>papercover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦10,000</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/kaiju.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kaiju No.8 (Vol.5)</h5>
+                <p class="card-text"> <span>papercover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦11,000</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/worldtrigger.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">World Trigger (Vol.24)
+                </h5>
+                <p class="card-text"> <span>papercover </span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦12,000</small>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/bungo.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">BUNGO (Vol.29</h5>
+                <p class="card-text"> <span> papercover</span></p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">₦13,500</small>
+            </div>
+        </div>
+    </div>
+    <div class="see-all"><a href="	">See All</a> </div>
+
+  <!--   responsive footer
+ -->
+
+
+    <footer class="ct-footer">
+  <div class="container">
+    <form name="contentForm" enctype="multipart/form-data" method="post" action="">
+      <div class="ct-footer-pre text-center-lg">
+        <div class="inner">
+          <span>STAY CONNECTED
+Keep up on the best new books and special offers.
+<a href="	">View our privacy policy.</a></span>
+        </div>
+        <div class="inner">
+          <div class="form-group">
+            <input name="formfields[nl_email]" id="nl_email" class="validate[required]" placeholder="Enter your email address" type="text" value=""> <label for="nl_email" class="sr-only">Email Address</label> <button type="submit" class="btn btn-motive">Join</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <ul class="ct-footer-list text-center-sm">
+      <li>
+        <h2 class="ct-footer-list-header">Help</h2>
+        <ul>
+          <li>
+            <a href="">Shipping</a>
+          </li>
+          <li>
+            <a href="">Refunds and Returns</a>
+          </li>
+          <li>
+            <a href="">Payment Options</a>
+          </li>
+          <li>
+            <a href="">Secure shopping</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">Explore</h2>
+        <ul>
+          <li>
+            <a href="">About Us</a>
+          </li>
+          <li>
+            <a href="">Careers</a>
+          </li>
+          <li>
+            <a href="">Events</a>
+          </li>
+          <li>
+            <a href="">Gift Cards</a>
+          </li>
+          <li>
+            <a href="">Site Map</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">Account</h2>
+        <ul>
+          <li>
+            <a href="">SIgn in/Create Account</a>
+          </li>
+          <li>
+            <a href="">Order status</a>
+          </li>
+          <li>
+            <a href="">Track your Order</a>
+          </li>
+          <li>
+            <a href="">Wishlist</a>
+          </li>
+         
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">Events</h2>
+        <ul>
+          <li>
+            <a href="">Read Our Blog</a>
+          </li>
+        
+          <li>
+            <a href="">Videos</a>
+          </li>
+          <li>
+            <a href="">News Releases</a>
+          </li>
+          <li>
+            <a href="">Newsletters</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">About</h2>
+        <ul>
+          <li>
+            <a href="">FAQ</a>
+          </li>
+          <li>
+            <a href="">Our Board</a>
+          </li>
+          <li>
+            <a href="">Our Staff</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="ct-footer-meta text-center-sm">
+      <div class="row">
+        <div class="col-sm-6 col-md-2">
+          <img alt="logo" src="assets/logowhite.png">
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <address>
+            <span>Ocean Of Books<br>  24 oceanic street</span><br>
+            Garki, Abuja, FCTA<br>
+            <span>Phone: <a href="tel:5555555555">09053000685</a></span>
+          </address>
+        </div>
+        <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+          <a href="" target="_blank"><img alt="app store" src="assets/appstore.png"></a>
+        </div>
+        <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+          <a href="" target="_blank"><img alt="google play store" src="assets/googleplay.png"></a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <ul class="ct-socials list-unstyled list-inline">
+            <li>
+              <a href="" target="_blank"><img alt="facebook"   style="	width: 50px; height:50px;" src="assets/facebook.png"></a>
+            </li>
+            <li>
+              <a href="" target="_blank"><img alt="twitter"   style="	width: 50px; height:50px;" src="assets/twitter.png"></a>
+            </li>
+           
+            <li>
+              <a href="" target="_blank"><img alt="instagram"    style="	width: 50px; height:50px;" src="assets/instagram.png"></a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div  style="	height: 150px;" class="ct-footer-post">
+    <div class="container">
+      <div class="inner-left">
+        <ul>
+          <li>
+            <a href="">FAQ</a>
+          </li>
+          <li>
+            <a href="">News</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="inner-right">
+        <p>Copyright © 2021 0cean of books.&nbsp;<a href="">Privacy Policy</a></p>
+       <!--  <p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by DigitalUs on <a href="" target="_blank">Solodev CMS</a></p> -->
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
