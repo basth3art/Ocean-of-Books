@@ -34,7 +34,7 @@ body {
   min-height: 100vh;
   overflow: hidden;
   box-sizing: border-box;
-  position: relative;
+  position: fixed;
 }
 
 /*.landing-links >ul{
