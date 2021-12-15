@@ -891,12 +891,12 @@ address a:hover {
 	/*.search-bar{
 		display: none;
 	}*/
-.topnavlinks ul li:nth-child(2){
+.topnavlinks ul li:nth-child(3){
 	display: none;
 	/*float: right;*/
 }
 
-.topnavlinks ul li:nth-child(){
+.topnavlinks ul li:nth-child(2){
 	display: none;
 	float: right;
 
