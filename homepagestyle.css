@@ -891,12 +891,12 @@ address a:hover {
 	/*.search-bar{
 		display: none;
 	}*/
-.topnavlinks ul li:nth-child(1){
+.topnavlinks ul li:nth-child(2){
 	display: block;
 	/*float: right;*/
 }
 
-.topnavlinks ul li:nth-child(2){
+.topnavlinks ul li:nth-child(){
 	display: block;'
 	float: right;
 
@@ -912,17 +912,17 @@ address a:hover {
 
 
 
-.topnavlinks ul li:nth-child(4){
+.topnavlinks ul li:nth-child(){
 	display: none;
 
 }
 
-.topnavlinks ul li:nth-child(5){
+.topnavlinks ul li:nth-child(){
 	display: none;
 	
 }
 
-.topnavlinks ul li:nth-child(6){
+.topnavlinks ul li:nth-child(){
 	display: none;
 	
 }
