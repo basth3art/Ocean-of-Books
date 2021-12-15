@@ -430,8 +430,10 @@ anchors are inline so you need ot make them block to go full width
 
 .img2{
 	background-image: url(assets/bestbooks.jpg);
-	background-size: contain; 
+	/*background-size: contain; */
 	background-repeat:no-repeat;
+	background-size: 100% 100%;
+
 }
 
 .deck3{

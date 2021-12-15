@@ -26,15 +26,16 @@
 }
 
 
-html {
+/*html {
   height: 100vh;
-}
+}*/
 body {
 	margin: 0;
-  min-height: 100vh;
-  overflow: hidden;
+  height: 100%;
+  /*overflow: hidden;*/
   box-sizing: border-box;
-
+  padding: 0px;
+ /* position: fixed;*/
 }
 
 /*.landing-links >ul{
@@ -124,18 +125,24 @@ body {
 }
 
 .main-container{
-	display: flex;
+	display: grid;
+grid-template-columns: 1fr 1fr;
 	/*justify-content: space-between;*/
 	height: 85vh;
-
+	width: 100%;
+	/*justify-content: ;
+	align-content: ;*/
+	 grid-auto-flow: column;
+	 grid-gap: 0px;
+	 margin-bottom: 0px;
+	 
 	  
-
 
 }
 
 .section{
 	
-	width:50%;
+	/*width:50%;*/
 	
 	
 
@@ -149,17 +156,24 @@ border-right: 5px solid #292831;
 overflow: hidden;
 /*z-index: -1;*/
 padding-top: 20px;
+height: 100%;
 }
 .rightsec{
-	/*background-image:url(assets/rightsecphoto.jpg);
+	/*background-image:url(assets/rightsecphoto.jpg
 	background-repeat: no-repeat;*/
 	color: white;
 	font-family:  'Fascinate Inline', cursive;
 	font-size: 24px;
 	position: relative;
-	background-color: black;
+	background-image: url(assets/rightsecphoto.jpg);
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
 
+	
+	
 }
+
+
 
 
 
@@ -169,6 +183,7 @@ padding-top: 20px;
 	height: 100%;
 	width: 100%;
 	z-index: -1;
+
 
 
 }
@@ -245,7 +260,6 @@ font-size: 24px;
 padding-left:21px;
 
 }
-
 .socials{
 	position: absolute;
 	width: 500px;
@@ -265,15 +279,75 @@ bottom: 20px;
 
 
 }
+
+
+.socialsmobile{
+	display: none;
+}
+
 @media only screen and (max-width: 768px){
 
 	/*.search-bar{
 		display: none;
 	}*/
-body{
-	
-position:fixed;
+.leftsec-content>img{
+	width: 200px;
+	height: 100px;
+}
+
+.shop-now{
+
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
 
 }
 
+
+.navmobile , #navmobile1 ,#navmobile2 {
+
+	display: none;
+}
+
+.main-container{
+	display: grid;
+grid-template-columns: 1fr ;
+
+
+
+}
+
+
+.leftsec{
+	position: relative;
+background-color: #A9A9C6;
+
+border-right: 5px solid #292831;
+overflow: hidden;
+/*z-index: -1;*/
+padding-top: 20px;
+height: 100%;
+width: 100%;
+}
+
+
+
+.rightsec{
+	display: none;
+}
+
+
+/*#socialsmobile{
+	display: absolute;
+	
+}
+*/
+
+
+.socialsmobile{
+display: block;
+bottom: -200px;
+left: -60px;
+
+}
 }
