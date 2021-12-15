@@ -892,12 +892,12 @@ address a:hover {
 		display: none;
 	}*/
 .topnavlinks ul li:nth-child(2){
-	display: block;
+	display: none;
 	/*float: right;*/
 }
 
 .topnavlinks ul li:nth-child(){
-	display: block;'
+	display: none;
 	float: right;
 
 }
